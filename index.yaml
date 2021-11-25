@@ -3,12 +3,12 @@ entries:
   node-todo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-25T17:09:41.717765463+05:30"
+    created: "2021-11-25T17:14:40.112306725+05:30"
     description: A Helm chart for Kubernetes
     digest: 387931ed9ccfe0896ea4e7f5cab5634d0564500578566fa40a893b0e75f6e71c
     name: node-todo
     type: application
     urls:
-    - https://github.com/akshay-cognologix/helm-charts/node-todo-0.1.0.tgz
+    - https://akshay-cognologix.github.io/helm-charts/node-todo-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-25T17:09:41.713576775+05:30"
+generated: "2021-11-25T17:14:40.107488391+05:30"
