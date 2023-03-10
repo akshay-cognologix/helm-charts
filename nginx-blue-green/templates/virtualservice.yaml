@@ -14,6 +14,8 @@ spec:
         prefix: /active/
     - uri:
         exact: /active  
+    rewrite:
+      uri: /
     route:
     - destination:
         host: {{ include "nginx-sample.fullname" . }}-active

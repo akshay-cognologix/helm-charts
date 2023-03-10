@@ -3,9 +3,9 @@ entries:
   nginx-bg:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-10T11:24:36.073496333+05:30"
+    created: "2023-03-10T12:52:17.680044188+05:30"
     description: A Helm chart for Kubernetes
-    digest: 1fa26b50e42c17f4490c4553aef554c07d9b14bcf322c1f69b78665dcc6b4950
+    digest: 165b36453d212636c96aab9521f58a4b5d4bed954010a2a9f5f0ed6b720ab7f6
     name: nginx-bg
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   nginx-hltr:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-10T11:24:36.073775737+05:30"
+    created: "2023-03-10T12:52:17.680541216+05:30"
     description: A Helm chart for Kubernetes
     digest: eef95932481847a2545ce45e2fbf53db531e5275397d37cbd21ffaf9cebb6bf1
     name: nginx-hltr
@@ -25,7 +25,7 @@ entries:
   nginx-sltr:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-10T11:24:36.074064754+05:30"
+    created: "2023-03-10T12:52:17.681179528+05:30"
     description: A Helm chart for Kubernetes
     digest: d3a9a88664a0c3fa41adc7d7699bdec73f7024dcd4b4a69d7d9eb3dd535037e8
     name: nginx-sltr
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://akshay-cognologix.github.io/helm-charts/charts/nginx-sltr-1.0.0.tgz
     version: 1.0.0
-generated: "2023-03-10T11:24:36.072956724+05:30"
+generated: "2023-03-10T12:52:17.679406844+05:30"
