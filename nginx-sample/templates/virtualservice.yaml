@@ -1,0 +1,17 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: {{ include "nginx-sample.fullname" . }}-vs
+spec:
+  gateways:
+  - {{ include "nginx-sample.fullname" . }}-gw
+  hosts:
+  - '*'
+  http:
+  - name: primary
+    route:
+    - destination:
+        host: {{ include "nginx-sample.fullname" . }}-svc
+        port:
+          number: 80
+      weight: 100
